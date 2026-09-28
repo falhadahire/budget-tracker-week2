@@ -1,0 +1,69 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+   background-color: #f0f0f0;
+   colr:white
+}
+header {
+   
+    padding: 20px;
+    text-align: center;
+  
+}
+
+.expense-section {
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.placeholder-section {
+    background-color: lightyellow;
+    padding: 20px;
+    margin-top: 20px;
+    color:rgb(7, 5, 5)3, 11, 11)
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(42, 113, 136);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+    font-weight:bold
+}video
+
+tr:hover {
+    background-color: rgb(230, 230, 173);
+}
+button {
+    cursor: pointer;
+}
+.placeholder-section td {
+    font-size: 15px;
+    padding: 12px;
+}
+input:not([type="submit"]) {
+    border: 2px solid lightgray;
+    padding: 8px;
+}
+input:focus {
+    border: 2px solid rgb(42, 113, 136);
+    outline: none;
+}
